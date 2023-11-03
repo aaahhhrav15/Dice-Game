@@ -51,7 +51,7 @@ Error generating stack: `+o.message+`
   cursor: pointer;
 `;be(Hl)`
   
-`;const km=({toggle:e})=>R.jsxs(xm,{children:[R.jsx("div",{className:"left",children:R.jsx("img",{src:"/images/dices.png",alt:""})}),R.jsxs("div",{className:"right",children:[R.jsx("h1",{children:"DICE GAME"}),R.jsx(Hl,{onClick:e,children:"Play Now"})]})]}),xm=be.div`
+`;const km=({toggle:e})=>R.jsxs(xm,{children:[R.jsx("div",{className:"left",children:R.jsx("img",{src:"images/dices.png",alt:""})}),R.jsxs("div",{className:"right",children:[R.jsx("h1",{children:"DICE GAME"}),R.jsx(Hl,{onClick:e,children:"Play Now"})]})]}),xm=be.div`
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@ Error generating stack: `+o.message+`
   place-items: center;
   background-color: ${e=>e.isSelected?"black":"white"};
   color: ${e=>e.isSelected?"white":"black"};
-`,Pm=({currentDice:e,rollDice:t})=>R.jsxs(Nm,{children:[R.jsx("div",{className:"dice",onClick:()=>t(),children:R.jsx("img",{src:`/images/dice_${e}.png`,alt:""})}),R.jsx("p",{children:"Click on the Dice to Roll"})]}),Nm=be.div`
+`,Pm=({currentDice:e,rollDice:t})=>R.jsxs(Nm,{children:[R.jsx("div",{className:"dice",onClick:()=>t(),children:R.jsx("img",{src:`images/dice_${e}.png`,alt:""})}),R.jsx("p",{children:"Click on the Dice to Roll"})]}),Nm=be.div`
     display: flex;
     flex-direction: column;
     align-items: center;
